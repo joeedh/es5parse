@@ -181,5 +181,9 @@ class Glob(AbstractGlob):
   g_lexpos = 0
   g_line = 0
   g_error = False
-    
+  g_print_stack = False
+  g_msvc_errors = False
+  g_validate_mode = False
+  g_exit_on_err = True
+  
 glob = Glob()

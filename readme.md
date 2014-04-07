@@ -11,4 +11,12 @@ This is based off of an in-house ES6->ES5 compiler, which you can also find on m
 * Python3.x
 * PyPLY: http://www.dabeaz.com/ply/
 
+##Basic Usage
+You can validate JS source files with:
+
+    js_cc.py [path-to-file]
+
+Since this is a reference implementation,
+the parser doesn't actually do anything other than parse JS files into AST trees (see js_ast.py
+for the AST node types).
 
